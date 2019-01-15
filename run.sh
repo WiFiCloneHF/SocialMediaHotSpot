@@ -18,3 +18,4 @@ systemctl restart apache2
 /etc/init.d/apache2 start
 hostapd -B /root/hostapd.conf
 dnsmasq -C /root/dnsmasq.conf
+tail -f /var/www/html/got.txt
