@@ -12,3 +12,7 @@ cd SocialMediaHotSpot
 chmod +x run.sh
 ./run.sh
 
+>> 000 on HF is a fucking tool and he's stealing content for his site - whatever, but then he's using his site as a reference for stolen content on HF to claim it's his.
+
+>> By the way it's Mr. Robot - 2682887. 
+Stop being a little bitch stealing peoples work. 
